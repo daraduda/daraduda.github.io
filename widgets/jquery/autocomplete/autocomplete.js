@@ -2,7 +2,7 @@ $(function() {
     $( "#tags-ajax-json" ).autocomplete({
         source: function(request, response) {
             $.ajax({
-                url: "https://api.geonames.org/searchJSON?q=UA&country=UA&lang=en&maxRows=10&username=slv_yaroslav",
+                url: "http://api.geonames.org/searchJSON?q=UA&country=UA&lang=en&maxRows=10&username=slv_yaroslav",
                 dataType: "jsonp",
                 data: {
                     featureClass: "P",
